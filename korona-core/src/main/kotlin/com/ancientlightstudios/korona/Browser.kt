@@ -31,7 +31,7 @@ class Browser(private val contextUrl:String? = null) {
 
     }
 
-    fun buildUrl(page:Page): String {
+    private fun buildUrl(page:Page): String {
         if (contextUrl != null) {
             return "$contextUrl/${page.location}"
         }
