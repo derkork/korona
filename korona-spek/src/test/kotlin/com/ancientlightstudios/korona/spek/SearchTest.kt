@@ -1,4 +1,4 @@
-package com.ancientlightstudios
+package com.ancientlightstudios.korona.spek
 
 import com.ancientlightstudios.korona.KoronaSpek
 import com.ancientlightstudios.korona.at
